@@ -300,13 +300,13 @@ function Atividade9() {
     }
 
     valorTotalVendas = parseInt(qtdCarrosVendidos.value) * parseInt(valorCarro.value)
-    comissao = (parseInt(percComissao.value) / 100) * parseInt(qtdCarrosVendidos.value)
+    comissao = (parseInt(percComissao.value) / 100) * parseInt(valorTotalVendas)
 
     if(valorTotalVendas > 100000) {
         comissaoExtra = (7.5 / 100) * valorTotalVendas
     }
 
-    salarioTotal = parseInt(salario.value) + comissao + valorTotalVendas + comissaoExtra
+    salarioTotal = parseInt(salario.value) + comissao + comissaoExtra
     resultado.innerHTML = `Salário fixo: ${salario.value}\nValor da comissão: ${comissao}\nValor da comissão exta: ${comissaoExtra}\nSalário total: ${salarioTotal}`
 }
 
