@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <link rel="stylesheet" href="./atividades.css">
+</head>
+<body>
+     <fieldset>
+        
+            <legend>Atividade 1</legend>
+        
+            <label for="atvd1-dias">Dias</label>
+            <br>
+            <input id="atvd1-dias" type="number" name="dias" required>
+            <br>
+            <br>
+
+            <label for="atvd1-meses">Meses</label>
+            <br>
+            <input id="atvd1-meses" type="number" name="meses" required>
+            <br>
+            <br>
+
+            <label for="atvd1-anos">Anos</label>
+            <br>
+            <input id="atvd1-anos" type="number" name="anos" required>
+            <br>
+            <br>
+            
+            <button onclick="Atividade1()">Executar</button>
+            <br>
+            <br>
+
+            <label for="textarea1">Resultado</label>
+            <br>
+            <textarea id="textarea1" name="textarea1" cols="30" rows="10"
+            readonly>
+            </textarea>
+            <br>
+            <br>
+            
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 2</legend>
+    
+        <label for="atvd2-nota1">Nota1</label>
+        <br>
+        <input id="atvd2-nota1" type="number" name="nota1" required>
+        <br>
+        <br>
+
+        <label for="atvd2-nota2">Nota2</label>
+        <br>
+        <input id="atvd2-nota2" type="number" name="nota2" required>
+        <br>
+        <br>
+
+        <label for="atvd2-nota3">Nota3</label>
+        <br>
+        <input id="atvd2-nota3" type="number" name="nota3" required>
+        <br>
+        <br>
+
+        <label for="atvd2-nota4">Nota4</label>
+        <br>
+        <input id="atvd2-nota4" type="number" name="nota4">
+        <br>
+        <br>
+        
+        <button onclick="Atividade2()">Executar</button>
+        <br>
+        <br>
+
+        <label for="textarea2">Resultado</label>
+        <br>
+        <textarea id="textarea2" name="textarea2" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+    <legend>Atividade 3</legend>
+
+    <label for="atvd3-numero">Número</label>
+    <br>
+    <input id="atvd3-numero" type="number" name="numero" required>
+    <br>
+    <br>
+
+    <button onclick="Atividade3()">Executar</button>
+    <br>
+    <br>
+
+    <label for="textarea3">Resultado</label>
+    <br>
+    <textarea id="textarea3" name="textarea3" cols="30" rows="10"
+    readonly>
+    </textarea>
+    <br>
+    <br>
+    
+    </fieldset>
+
+    <fieldset>
+        
+    <legend>Atividade 4</legend>
+
+    <label for="atvd4-usuario">Usuário</label>
+    <br>
+    <input id="atvd4-usuario" type="text" name="usuario" required>
+    <br>
+    <br>
+
+    <label for="atvd4-senha">Senha</label>
+    <br>
+    <input id="atvd4-senha" type="text" name="senha" required>
+    <br>
+    <br>
+
+    <button onclick="Atividade4()">Executar</button>
+    <br>
+    <br>
+
+    <label for="textarea4">Resultado</label>
+    <br>
+    <textarea id="textarea4" name="textarea4" cols="30" rows="10"
+    readonly>
+    </textarea>
+    <br>
+    <br>
+    
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 5</legend>
+    
+        <label for="atvd5-senha">Senha</label>
+        <br>
+        <input id="atvd5-senha" type="text" name="senha" required>
+        <br>
+        <br>
+    
+        <button onclick="Atividade5()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea5">Resultado</label>
+        <br>
+        <textarea id="textarea5" name="textarea5" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 6</legend>
+    
+        <label for="atvd6-graus">Fahrenheit</label>
+        <br>
+        <input id="atvd6-graus" type="text" name="graus" required>
+        <br>
+        <br>
+    
+        <button onclick="Atividade6()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea6">Resultado</label>
+        <br>
+        <textarea id="textarea6" name="textarea6" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 7</legend>
+    
+        <label for="atvd7-a">A</label>
+        <br>
+        <input id="atvd7-a" type="text" name="a" required>
+        <br>
+        <br>
+
+        <label for="atvd7-b">B</label>
+        <br>
+        <input id="atvd7-b" type="text" name="b" required>
+        <br>
+        <br>
+
+        <label for="atvd7-c">C</label>
+        <br>
+        <input id="atvd7-c" type="text" name="c" required>
+        <br>
+        <br>
+    
+        <button onclick="Atividade7()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea7">Resultado</label>
+        <br>
+        <textarea id="textarea7" name="textarea7" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 8</legend>
+    
+        <label for="atvd8-frase">Frase</label>
+        <br>
+        <input id="atvd8-frase" type="text" name="frase" required>
+        <br>
+        <br>
+    
+        <button onclick="Atividade8()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea8">Resultado</label>
+        <br>
+        <textarea id="textarea8" name="textarea8" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 9</legend>
+    
+        <label for="atvd9-salario">Salário Fixo</label>
+        <br>
+        <input id="atvd9-salario" type="text" name="salario" required>
+        <br>
+        <br>
+
+        <label for="c">Percent comissão por caro vendido</label>
+        <br>
+        <input id="atvd9-prc-comissao" type="text" name="comissao" required>
+        <br>
+        <br>
+
+        <label for="atvd9-carros-vendidos">Quantidade de carros vendidos</label>
+        <br>
+        <input id="atvd9-carros-vendidos" type="text" name="carros-vendidos" required>
+        <br>
+        <br>
+
+        <label for="atvd9-valor-carro">Valor de cada carro vendido</label>
+        <br>
+        <input id="atvd9-valor-carro" type="text" name="valor-carro" required>
+        <br>
+        <br>
+    
+        <button onclick="Atividade9()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea9">Resultado</label>
+        <br>
+        <textarea id="textarea9" name="textarea9" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 10</legend>
+    
+        <button onclick="Atividade10()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea10">Resultado</label>
+        <br>
+        <textarea id="textarea10" name="textarea10" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Atividade 11</legend>
+    
+        <label for="atvd11-capital">Capital inicial</label>
+        <br>
+        <input id="atvd11-capital" type="text" name="capital" required>
+        <br>
+        <br>
+
+        <label for="atvd11-tempo">Tempo em meses</label>
+        <br>
+        <input id="atvd11-tempo" type="text" name="tempo" required>
+        <br>
+        <br>
+
+        <label for="atvd11-juros">Taxa de juros mensal</label>
+        <br>
+        <input id="atvd11-juros" type="text" name="juros" required>
+        <br>
+        <br>
+    
+        <button onclick="Atividade11()">Executar</button>
+        <br>
+        <br>
+    
+        <label for="textarea11">Resultado</label>
+        <br>
+        <textarea id="textarea11" name="textarea11" cols="30" rows="10"
+        readonly>
+        </textarea>
+        <br>
+        <br>
+        
+    </fieldset>
+
+
+
+    <script src="./atividades.js"></script>
+</body>
+</html>
