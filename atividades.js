@@ -302,7 +302,7 @@ function Atividade9() {
     valorTotalVendas = parseInt(qtdCarrosVendidos.value) * parseInt(valorCarro.value)
     comissao = (parseInt(percComissao.value) / 100) * parseInt(qtdCarrosVendidos.value)
 
-    if(qtdCarrosVendidos.value > 100000) {
+    if(valorTotalVendas > 100000) {
         comissaoExtra = (7.5 / 100) * valorTotalVendas
     }
 
@@ -313,7 +313,7 @@ function Atividade9() {
 function Atividade10() {
     let resultado = document.getElementById('textarea10')
 
-    let joioETrigo = ["joio", "trigo", "trigo", "joio", "trigo", "joio", "joio", "joio", "joio", "trigo", "trigo", "joio", 
+    const joioETrigo = ["joio", "trigo", "trigo", "joio", "trigo", "joio", "joio", "joio", "joio", "trigo", "trigo", "joio", 
     "joio", "joio", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "joio", "joio", 
     "joio", "joio", "joio", "joio", "joio", "joio", "trigo", "trigo", "joio", "joio", "joio", "joio", "joio", "joio", "joio", "joio", 
     "joio", "joio", "joio", "joio", "joio", "joio", "joio", "joio", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", "trigo", 
